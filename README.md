@@ -1,4 +1,4 @@
-# 🎸 Homebrew Casks for BOSS Katana software 
+# 🎸 Homebrew Casks for BOSS Katana software
 
 This repository contains casks for BOSS Tone Studio for Katana (Mk1) and the required USB driver.
 
@@ -20,8 +20,6 @@ Or just the driver with
 
 
 ## Versions and compatibility
-
-The following is a list of currently available toolchains:
 
   * BOSS TONE STUDIO for KATANA
     - Version 4.0.0
