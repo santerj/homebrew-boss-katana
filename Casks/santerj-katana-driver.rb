@@ -18,5 +18,5 @@ cask "santerj-katana-driver" do
         "jp.co.roland.Katana.audio.11.pkg"
     ]
 
-    app "/Applications/BOSS/KATANA Driver/KATANA Driver Setup.app"
+    app "KATANA Driver Setup.app"
 end
