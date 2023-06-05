@@ -11,9 +11,12 @@ cask "santerj-katana-driver" do
 
     pkg "KatanaUSBDriver/Katana_USBDriver11.pkg"
 
-    #uninstall pkgutil: "BOSS/"
+    uninstall pkgutil: [
+        "jp.co.roland.Katana.midi.11.pkg",
+        "jp.co.roland.Katana.setup.11.pkg",
+        "jp.co.roland.Katana.audio.11.pkg"
+    ]
 
-   #container type: :pkg
-   #container nested: "KatanaUSBDriver/Katana_USBDriver11.pkg"
-
+    app "BOSS/KATANA Driver/KATANA Driver Setup.app"
+    app "BOSS/KATANA Driver/Uninstaller.app"
 end
