@@ -11,6 +11,7 @@ cask "santerj-katana-driver" do
     sha256 "044ffb814fbef8cedf5ee5f3a62ac11da79124c3f8405e31da4fed07180fab25"
 
     pkg "KatanaUSBDriver/Katana_USBDriver11.pkg"
+    binary "/Applications/BOSS/KATANA Driver/KATANA Driver Setup.app/Contents/MacOS/KATANA Driver Setup", target: "KATANA Driver Setup"
 
     uninstall pkgutil: [
         "jp.co.roland.Katana.midi.11.pkg",
