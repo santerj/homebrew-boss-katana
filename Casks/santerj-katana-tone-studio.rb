@@ -3,7 +3,9 @@ cask "santerj-katana-tone-studio" do
 
     name "BOSS Tone Studio for Katana"
     homepage "https://www.boss.info/uk/support/by_product/katana-50/updates_drivers/"
-    desc "Editor for Katana modeling amp family"
+    desc "Visual editor for BOSS Katana (Mk1) amplifiers"
+    
+    depends_on cask: "santerj-katana-driver"
 
     url "https://static.roland.com/assets/media/zip/bts_katana_m400.zip",
         verified: "static.roland.com"
