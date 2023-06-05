@@ -9,8 +9,11 @@ cask "santerj-katana-driver" do
         verified: "static.roland.com"
     sha256 "044ffb814fbef8cedf5ee5f3a62ac11da79124c3f8405e31da4fed07180fab25"
 
-    container nested: "KatanaUSBDriver/Katana_USBDriver11.pkg"
+    pkg "KatanaUSBDriver/Katana_USBDriver11.pkg"
 
-    app "BOSS/KATANA Driver/KATANA Driver Setup.app"
-    app "BOSS/KATANA Driver/Uninstaller.app"
+    #uninstall pkgutil: "BOSS/"
+
+   #container type: :pkg
+   #container nested: "KatanaUSBDriver/Katana_USBDriver11.pkg"
+
 end
