@@ -4,6 +4,7 @@ cask "santerj-katana-driver" do
     name "BOSS Tone Studio for Katana"
     homepage "https://www.boss.info/uk/support/by_product/katana-50/updates_drivers/"
     desc "Driver for Katana modeling amp family"
+    depends_on macos: ">= :big_sur"
 
     url "https://static.roland.com/assets/media/tgz/katana_mac11drv103.tgz",
         verified: "static.roland.com"
@@ -17,6 +18,5 @@ cask "santerj-katana-driver" do
         "jp.co.roland.Katana.audio.11.pkg"
     ]
 
-    #app "BOSS/KATANA Driver/KATANA Driver Setup.app"
-    #app "BOSS/KATANA Driver/Uninstaller.app"
+    app "/Applications/BOSS/KATANA Driver/KATANA Driver Setup.app"
 end
