@@ -14,6 +14,4 @@ cask "santerj-katana-tone-studio" do
     app "BOSS_TONE_STUDIO_for_KATANA.app"
   
     zap trash: "~/Library/Application Support/BOSS-TONE-STUDIO-for-KATANA/"
-
-    depends_on arch: [:x86_64]
 end
