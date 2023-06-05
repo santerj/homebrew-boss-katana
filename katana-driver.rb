@@ -1,4 +1,4 @@
-cask "santerj-katana-driver" do
+cask "katana-driver" do
     version "1.0.3"
     
     name "BOSS Tone Studio for Katana"
