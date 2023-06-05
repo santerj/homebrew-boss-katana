@@ -9,7 +9,7 @@ cask "santerj-katana-tone-studio" do
         verified: "www.boss.info"
     sha256 "7e47013594f01025960ac3bd4e01d03328e38490547a02e5e3bd32289c965209"
 
-    container nested: "BOSS\ TONE\ STUDIO\ for\ KATANA.dmg"
+    container nested: "bts_katana_m400/BOSS TONE STUDIO for KATANA.dmg"
 
     app "BOSS_TONE_STUDIO_for_KATANA.app"
   
