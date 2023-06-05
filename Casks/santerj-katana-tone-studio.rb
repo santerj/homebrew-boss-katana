@@ -6,7 +6,7 @@ cask "santerj-katana-tone-studio" do
     desc "Editor for Katana modeling amp family"
 
     url "https://static.roland.com/assets/media/zip/bts_katana_m400.zip",
-        verified: "www.boss.info"
+        verified: "static.roland.com"
     sha256 "7e47013594f01025960ac3bd4e01d03328e38490547a02e5e3bd32289c965209"
 
     container nested: "bts_katana_m400/BOSS TONE STUDIO for KATANA.dmg"
