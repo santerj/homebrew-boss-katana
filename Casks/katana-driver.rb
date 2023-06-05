@@ -6,7 +6,7 @@ cask "katana-driver" do
     desc "USB driver for BOSS Katana amplifiers"
     depends_on macos: ">= :big_sur"
 
-    url "https://static.roland.com/assets/media/tgz/katana_mac11drv103.tgz",
+    url "https://static.roland.com/assets/media/tgz/katana_mac11drv#{version.delete('.')}.tgz",
         verified: "static.roland.com"
     sha256 "044ffb814fbef8cedf5ee5f3a62ac11da79124c3f8405e31da4fed07180fab25"
 
