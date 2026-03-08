@@ -1,5 +1,5 @@
 cask "katana-driver" do
-    version "1.0.3"
+    version "1.0.4"
     sha256 :no_check
     
     name "BOSS Tone Studio for Katana"
@@ -7,7 +7,7 @@ cask "katana-driver" do
     desc "USB driver for BOSS Katana amplifiers"
     depends_on macos: ">= :big_sur"
 
-    url "https://static.roland.com/assets/media/tgz/katana_mac11drv#{version.delete('.')}.tgz",
+    url "https://static.roland.com/assets/media/tgz/katana_mac14drv#{version.delete('.')}.tgz",
         verified: "static.roland.com"
 
     pkg "KatanaUSBDriver/Katana_USBDriver11.pkg"
