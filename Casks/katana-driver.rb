@@ -17,9 +17,9 @@ cask "katana-driver" do
     end
 
     uninstall pkgutil: [
-      "jp.co.roland.Katana.midi.11.pkg",
-      "jp.co.roland.Katana.setup.11.pkg",
-      "jp.co.roland.Katana.audio.11.pkg"
+      "jp.co.roland.Katana.midi.14.pkg",
+      "jp.co.roland.Katana.setup.14.pkg",
+      "jp.co.roland.Katana.audio.14.pkg"
     ],
       delete: "/Applications/BOSS"
 
