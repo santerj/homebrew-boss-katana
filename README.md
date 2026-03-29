@@ -28,8 +28,8 @@ Or just the driver with
     - Only compatible with the older Mk1 line of amplifiers!
 
   * Katana Driver
-    - Version 1.0.3
-    - Compatible with macOS Big Sur 11.x / Monterey 12.x / Ventura 13.x
+    - Version 1.0.4
+    - Compatible with macOS Sonoma 14.x
     - Compatible with both Intel and Apple Silicon
 
 ## Notes
